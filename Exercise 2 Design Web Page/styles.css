@@ -1,0 +1,91 @@
+body{
+    margin: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+   
+}
+
+.searchl{
+    padding: 16px;
+    
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.navitem {
+    display: inline-block;
+    font-weight: 500;
+    margin: 22px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.navitem:hover {
+    background-color: rgb(175, 206, 250);
+ 
+}
+
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+
+}
+
+.pp {
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.userCards{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+}
+
+.user{
+
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(244, 242, 239);
+    padding: 16px;  
+    border-radius: 24px;
+
+    
+}
+
+.user .BigText{
+
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.label{
+
+    border-style: solid;
+    border-color: rgb(190, 193, 255);
+    padding: 3px;  
+    border-radius: 8px;
+}
+
+
+
+.user:hover {
+
+    background-color:rgb(219, 219, 217);
+   
+    
+}
