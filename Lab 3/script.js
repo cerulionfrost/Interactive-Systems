@@ -6,7 +6,7 @@ const type= document.querySelector("#type")
 
 let var1 =document.querySelector("h1");
 
-var1.innerHTML = "Hello";
+var1.innerHTML = "Your Activity of the Day";
 
 const url = 'https://www.boredapi.com/api/activity'
 
