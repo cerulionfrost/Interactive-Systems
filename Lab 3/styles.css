@@ -15,13 +15,21 @@ body {
     height: 100%;
 }
 
-.items-container {
+.itemsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+    
 }
 
 .item {
     margin: 10px;
     text-align: center;
+    justify-content: center;
+    grid-template-columns: min-content;
+    padding: 13px;  
+    border-radius: 18px;
+    
+    background-color: rgb(212, 255, 206);
 }
