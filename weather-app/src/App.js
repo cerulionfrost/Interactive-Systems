@@ -35,7 +35,7 @@ function App() {
 
   return (
     <Container>
-      <AppLabel>My Interactive Weather App</AppLabel>
+      <AppLabel>Interactive Weather App</AppLabel>
       {weather && found ? (
         <WeatherInfo
           weather={weather}
@@ -79,9 +79,9 @@ const Container = styled.div`
   align-items: center;
   box-shadow: 0 3px 6px 0 #555;
   padding: 40px 20px;
-  border-radius: 4px;
+  border-radius: 14px;
   width: 380px;
-  background-color: yellow; /* Change this line to set background color to yellow */
+  background-color: white;
   font-family: "DM Sans", sans-serif;
 
   > div {

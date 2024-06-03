@@ -6,7 +6,7 @@ const CityComponent = (props) => {
 
   return (
     <>
-      <WeatherLogo src="https://www.freeiconspng.com/uploads/weather-icon-png-15.png"></WeatherLogo>
+      <WeatherLogo src="https://i.imgur.com/ea8Eub3.png"></WeatherLogo>
       <SearchBox
         onSubmit={(e) => {
           e.preventDefault();
