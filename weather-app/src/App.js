@@ -17,19 +17,19 @@ function App() {
 
   const fetchWeather = async (CurrCity) => {
     if (CurrCity) {
-      setLoading(true);
+      setLoading(true); // Set loading state to true when API call starts
       try {
         const response = await axios.get(
           `https://api.openweathermap.org/data/2.5/weather?q=${CurrCity}&appid=${API_KEY}`
-        );
-        setWeather(response.data);
-        setFound(true);
-        setApierror(false);
+        ); // Making the API call with the city name and API key
+        setWeather(response.data); // Storing the fetched weather data
+        setFound(true); // Setting found to true indicating data was successfully fetched
+        setApierror(false); // Resetting the error state
       } catch {
-        setApierror(true);
-        setFound(false);
+        setApierror(true); // Setting error state to true if API call fails
+        setFound(false); // Resetting found state
       }
-      setLoading(false);
+      setLoading(false); // Reset loading state once API call is complete
     }
   };
 
